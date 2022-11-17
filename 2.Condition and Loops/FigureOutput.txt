@@ -1,0 +1,9 @@
+What will the following code segment print?
+x = 15
+if x <= 15:
+    print("Inside if")
+else:
+    print("Inside else")
+
+
+answer  -  Inside if
