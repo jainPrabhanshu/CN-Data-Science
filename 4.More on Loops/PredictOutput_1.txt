@@ -1,0 +1,6 @@
+What will be the output of following code?
+for i in range(1,5,2):
+    print(i,end=' ')
+
+
+answer  -  1 3    
