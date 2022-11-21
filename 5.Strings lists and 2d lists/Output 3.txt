@@ -1,0 +1,5 @@
+What is the output when following statement is executed ?
+    "abcd"[2:]
+
+
+answer  -  cd

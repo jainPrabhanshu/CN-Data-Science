@@ -1,0 +1,7 @@
+What is output of following code ?
+    s = "abcd"
+    print(s + 12)
+
+
+
+answer  -  error

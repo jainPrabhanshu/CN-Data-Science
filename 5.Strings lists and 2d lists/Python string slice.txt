@@ -1,0 +1,14 @@
+What is the output when following code is executed ?
+s = "abcdefghi"
+s[-3:-1]
+
+
+answer  -  gh
+
+Correct Answer
+Solution Description
+Format: str[start_index: last_index]
+
+s[-3:-1]
+
+Here, -3 means it will start from third last element and slice till the last index (-1) but not including it. So it will output “gh”.

@@ -1,0 +1,6 @@
+What is the output when following code is executed ?
+str1 = 'hello'
+print(str1[-1:])
+
+
+answer  -  o

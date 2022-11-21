@@ -1,0 +1,8 @@
+What is the output when following code is executed ?
+    s = "abcd"
+    s.upper()
+    print(s)    
+
+
+
+    answer  -  abcd
