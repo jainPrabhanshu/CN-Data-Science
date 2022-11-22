@@ -1,0 +1,6 @@
+What will be the output ?
+aList = [123, 'xyz', 'zara', 'abc'];
+print(aList.pop())
+
+
+answer  -  abc

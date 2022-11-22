@@ -1,0 +1,5 @@
+What is the output of the following?
+         print([i.lower() for i in "HELLO"])
+
+        
+answer  -  ['h', 'e', 'l', 'l', 'o']

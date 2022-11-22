@@ -1,0 +1,4 @@
+Suppose listExample is [‘h’,’e’,’l’,’l’,’o’], what is len(listExample) ?
+
+
+answer  -  5
