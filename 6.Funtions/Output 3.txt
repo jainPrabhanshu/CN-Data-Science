@@ -1,0 +1,12 @@
+What will be the output of following code?
+def func(a):
+    a = a + 10
+    return a
+a = 5
+func(a)
+print(a)
+
+
+answer  -  5
+
+When ‘func(a)’ is called the value of ‘a’ passed is 5. Inside the function, this value is stored in the local variable ‘a’. The func(b) function returns the value of 15 but this value is not stored in any variable. So when print(a) is called, it will output the value 5.

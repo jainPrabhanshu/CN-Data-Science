@@ -1,0 +1,10 @@
+What will be the output of following code?
+def func(a):
+    a = a*10
+    return a
+a = 10
+a = func(a)
+print(a)
+
+
+answer  -  100

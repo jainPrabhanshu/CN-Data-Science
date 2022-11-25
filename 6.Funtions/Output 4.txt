@@ -1,0 +1,12 @@
+What will be the output of following code?
+def square(a):
+    ans  = a*a
+    return  ans
+
+a = 4
+a = square(a)
+print(a)
+
+answer  -  16
+
+When ‘func(a)’ is called the value of ‘a’ passed is 4. Inside the function, this value is stored in the local variable ‘a’. The func(a) function returns the value of 16. This value is then assigned to the global variable ‘a’. And print(a) will output the value 16.

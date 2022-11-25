@@ -1,0 +1,14 @@
+What will be the output of following code?
+def A():
+   print('A',end=' ')
+def B():
+   print('B',end=' ')
+   A()
+def C():
+   B()
+   print('C',end=' ')
+
+C()
+
+
+answer  -  B A C
