@@ -1,0 +1,8 @@
+What will be the output of following code?
+a = (“ab”,”abc”,”def”)
+print(min(a))
+
+answer  -  ab
+
+Solution Description
+To find the maximum element in a tuple, the keyword used is max and for finding the minimum element, the keyword used is min. These keywords return the maximum and the minimum elements of the tuple, respectively.
