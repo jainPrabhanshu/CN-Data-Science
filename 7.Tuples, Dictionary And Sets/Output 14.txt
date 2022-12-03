@@ -1,0 +1,10 @@
+What will be the output of following code?
+s = {}
+s.add(4)
+s.add(4)
+print(len(s))
+
+answer  - error
+
+
+A set is created by using the set() function or placing all the elements within a pair of curly braces, separated by commas.

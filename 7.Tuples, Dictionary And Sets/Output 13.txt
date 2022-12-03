@@ -1,0 +1,18 @@
+What will be the output of following code?
+s = {1,2,3,5,4,2,3,1}
+print(len(s),end= “ “)
+s.add(4)
+s.add(3)
+print(len(s))
+
+
+answer  -  5 5
+
+Solution Description
+The elements in a set cannot be repeated i.e. an element can occur only once.
+
+s = {1,2,3,5,4,2,3,1} outputs {1, 2, 3, 4, 5}
+
+When s.add(4) is called firstly it checks if 4 is already present and if not present then only adds it to the set. Same for s.add(3)
+
+Final output is {1, 2, 3, 4, 5}.
