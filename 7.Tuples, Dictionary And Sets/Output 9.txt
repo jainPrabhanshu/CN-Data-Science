@@ -1,0 +1,7 @@
+What will be the output of following code?
+d = {1:2, “abc”:5, “def”:7}
+print(d.get(0,5))
+
+answer  -  5
+
+We can make use of this feature in another way. Say we want the method to do the following action: If the key is present in the dictionary then return the value corresponding to the key. In case the key is not present, return a custom desired value ( say 0 ).

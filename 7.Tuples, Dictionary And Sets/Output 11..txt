@@ -1,0 +1,15 @@
+What will be the output of following code?
+a = {1:2,’list’:[1,2],3:5}
+b = {4:5,3:7}
+a.update(b)
+print(a[3])
+
+answer  -  7
+
+Solution Description
+The “update” method is used to merge the contents of both the dictionaries and form a single dictionary out of it. In this process, the second dictionary is unchanged and the contents of the second dictionary are copied into the first dictionary. The uncommon keys from the second dictionary are added to the first with their corresponding values. However, if these dictionaries have any common key, then the value of the common key present in the first dictionary is updated to the new value from the second.
+
+In this case when the update is called then tuple 'a' becomes:
+a = {1:2,’list’:[1,2],4:5,3:7}
+
+So, a[3] returns 7.

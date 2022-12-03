@@ -1,0 +1,11 @@
+What will be the output of following code?
+d = {1:2, “abc”:5, “def”:7}
+print(d[0])
+
+
+answer  -  error
+
+Solution Description
+We already know that the indexing in a dictionary is done with the keys from the various key-value pairs present within. Thus to access any value we need to use its index i.e. its key.
+
+But in this case, 0 is not present in the dictionary as a key. That’s why it will throw an error. To handle the key not present in the dictionary error, the get() function can be used. A very unique feature of this method is that in case the desired key is not present in the dictionary, it won’t throw an error or an exception. It would simply return None.
