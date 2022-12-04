@@ -1,0 +1,11 @@
+Find the output of following code:
+Code
+class sampleclass:
+    pass
+s1=sampleclass()
+setattr(s1,'age', 23 )
+setattr(s1, 'name', 'John Doe' )
+s1.gender ='male'
+print(s1.__dict__)
+
+answer  -  {'age':23 , 'name':'John Doe' , 'gender':'male'}

@@ -1,0 +1,3 @@
+In Python, a class is ___________ for a concrete object.
+
+answer  -  a blueprint

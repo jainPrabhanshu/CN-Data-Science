@@ -1,0 +1,15 @@
+Find the output of following code:
+Code
+class sampleclass: 
+    count = 0     
+    def increase(self): 
+        sampleclass.count += 1
+s1 = sampleclass() 
+s1.increase()         
+print (s1.count,end=" ") 
+s2 = sampleclass() 
+s2.increase() 
+print (s2.count,end=" ") 
+print (sampleclass.count,end=" ") 
+
+answer  -  1 2 2
