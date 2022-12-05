@@ -1,0 +1,27 @@
+Given file "year2017.csv"
+It is an open-source database including information on terrorist attacks around the world in 2017. This dataset includes systematic data on domestic as well as international terrorist incidents that have occurred during this time period
+Problem Statement :
+Find and print total number of casualties with “Explosives” Weapon_type.
+Print the count as integer value.
+Note : There can be missing values in "casualties" column and there are some initial spaces present in every value. You should try to print the values and observe.
+Output Format :
+Count
+
+solution
+
+## Open and read data file as specified in the question
+## Print the required output in given format
+## Open and read data file as specified in the question
+## Print the required output in given format
+
+import csv    
+with open('year2017.csv') as field_obj:
+    field_data = csv.DictReader(field_obj,skipinitialspace=True)
+    count = []
+    for row in field_data:
+        val = row['Weapon_type']
+        if val != '' and val == 'Explosives' :
+            if row['casualities'] != '':
+                count.append(float(row['casualities']))
+            
+print(int(sum(count)))

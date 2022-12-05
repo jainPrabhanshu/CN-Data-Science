@@ -1,0 +1,16 @@
+Given file "Sample.txt"
+Open the file
+Read the first 5 lines from file and print them (in separate lines).
+Output Format :
+Line 1
+Line 2
+Line 3
+Line 4
+Line 5
+
+
+solution
+
+file_data = open('Sample.txt')
+for i in range(5):
+    print(file_data.readline())    

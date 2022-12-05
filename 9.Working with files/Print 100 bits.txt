@@ -1,0 +1,9 @@
+Given file "Sample.txt"
+Open the file
+Read the first 100 bytes of file and print them.
+
+
+solution
+
+file_data = open('Sample.txt')
+print(file_data.read(100))

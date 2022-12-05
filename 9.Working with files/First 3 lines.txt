@@ -1,0 +1,22 @@
+Given file "year2017.csv"
+It is an open-source database including information on terrorist attacks around the world from 1970 through 2017. This dataset includes systematic data on domestic as well as international terrorist incidents that have occurred during this time period
+Problem Statement :
+Open and read the file
+Print the first 3 rows of the file, excluding header (in different lines)
+Print columns of one row, separated by space
+Output Format :
+col_1 col_2 col_3 col_4 ....
+col_1 col_2 col_3 col_4 ....
+col_1 col_2 col_3 col_4 ...
+
+
+solution
+
+import csv
+with open('year2017.csv') as file_obj:
+    file_data = csv.reader(file_obj)
+    file_list = list(file_data)
+for i in range(1,4):
+    for j in range(len(file_list[i])):
+        print(file_list[i][j],end=" ")
+    print()
